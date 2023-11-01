@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifath Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/36867f40c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Logo.png" class="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer/Designer</p>
+                <h1>Hello, I'm <br><span>Foridul Islam Rifath</span></h1>
+                <p> I am a Software Engineer and
+                    a tech enthusiast<br> who is currently
+                    learning Web Development and<br>Design.
+                    I am also pursuing my B.Sc in
+                    Computer<br>Science & Engineering.</p>
+            </div>
+        </div>
+    </div>
+    <!-----------------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Background.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I am Foridul Islam Rifath, a dedicated Software Engineer who is
+                       specialized in JavaScript programmimg language and React, Next.js and
+                       Bootstrap framework. I have also learned C,Dart,Flutter,Java,OOP,HTML and CSS.
+                       I am currently pursuing my undergraduate studies in the CSE department at
+                       Leading University. I am eager to collaborate with dynamic teams and explore 
+                       new opportunities to expand my skills. I am passionate about Astrology and their
+                       practical appliacations and constantly seeking new challenges to enhance my skills.
+                       I am always striving to make a positive impact in my field.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML,CSS,JavaScript,React,Next JS and so on</li>
+                            <li><span>UI/UX</span><br>Figma</li>
+                            <li><span>Language</span><br>Fluency in speaking English</li>         
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Project</span><br>C based Ticket Booking System</li>       
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Current</span><br>B.Sc. in Computer Science & Engineering at Leading University</li>
+                            <li><span>HSC(2018-2020)</span><br>Sylhet Govt. College<br>GPA:5.00</li>
+                            <li><span>SSC(2017-2018)</span><br>Blue Bird School & Collegue<br>GPA:5.00</li>         
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------Services--------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-connectdevelop"></i>
+                    <h2>Web Develop</h2>
+                    <p>I develop various Web Apps. If you need any kind of 
+                        help than you can contact me.<br>
+                        <a href="#">Learn more</a>
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Web Design</h2>
+                    <p>I design web interfaces using Figma. If you need any kind of 
+                        help than you can contact me.<br>
+                        <a href="#">Learn more</a>
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>I can also design app interfaces using Figma. If you need any kind of 
+                        help than you can contact me.<br>
+                        <a href="#">Learn more</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------Portfolio---------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Web Development Projects.jpg">
+                    <div class="layer">
+                        <h3>Web Development Projects</h3>
+                        <p>Here you can see all of my web development projects.</p>
+                        <a href="https://drive.google.com/drive/folders/1nxPcql2VNCCEO1ljd5mgrG7hffQpIICW?usp=sharing"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Web Design.jpg">
+                    <div class="layer">
+                        <h3>Web Design Projects</h3>
+                        <p>Here you can see all of my web design projects.</p>
+                        <a href="https://drive.google.com/drive/folders/1n9S70Paa9DPKgdqHGuDId779uS78EO4r?usp=sharing"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/App Development.jpg">
+                    <div class="layer">
+                        <h3>App Design Projects</h3>
+                        <p>Here you can see all of my app design projects.</p>
+                        <a href="https://drive.google.com/drive/folders/1AI4-HClvWPc04hJWRAR0tXend2fFX9lj?usp=sharing"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------Contact----------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>rifathforidul@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile"></i>01322023100</p>
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/channel/UC7s3co3Moj191UegCk2ObBw"><i class="fa-brands fa-youtube"></i></i></a>
+                        <a href="https://www.instagram.com/forid_rifath/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/foridul-islam-9a08b9298/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100017042438535"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <!-------------------Download CV------------------------>
+                    <a href="Images/Rifath CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Rifath.</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwJAXk8olb2IT00ehSV__aAULHZUyfKNxiXLtF53DQS_Kf-Pu13hI_qq1zh4m-0ttRdxA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
